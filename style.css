@@ -1,77 +1,51 @@
-.cabeçalho{
-    background-color:rgb(112, 105, 10);
-    display: flex;
-    justify-content: space-around;
-    padding: 24px 0px;
-}
-.imagem-cabeçalho{
-    width: 80px;;
-}
-body{
-    background-color: white;
-}
-.cabeçalho-lista-item{
-    font-size: 35px;
-    color: white;
-    display: flex;
-    margin: 0% 15px;
-}
-.imagem-escola{
-    width: 300px;
-}
-.escola{
-    background-image: linear-gradient(rgb(112, 105, 10), rgb(252, 252, 64));
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
-}
-.div-escola-conteudo{
-    width: 35%;
-}
-.titulo-escola{
-    padding: 24px 0;
-}
-.texto-1{
-    font-style: italic;
-    font-size: x-large;
-}
-.imagem-estudante{
-    width: 150px;
-}
-.icone-estudante{
-    width: 30px;
-    padding: 0 8px
-}
-.div-estudante{
-    text-align: center;
-    padding: 24px;
-}
-.titulo-estudante{
-    text-align: center;
-    padding: 50px;
-}
-.todos-estudantes{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-}
-.estudante{
-    background-image: linear-gradient( rgb(252, 252, 64),rgb(112, 105, 10));
-}
-.rodape{
-    background-color: black;
-    text-align: center;
-}
-.rodape-imagem{
-    height: 60px;
-    width: 1350px;
-}
-.cabeçalho-menu-item{
-    display: block
-    padding: 10px;
-    font-size: 24px;
-    text-decoration: none;
-    color: black
-    text-align:center;
+:root{
 
-}
+    --cor-fundo:
+    }
+    
+    body {
+        background-color: var(--cor-fundo) ;
+    }
+    
+    .cabecalho {
+    
+        background-color: var(--cor-fundo);     
+    }
+    .cabecalho-titulo{
+        font-size: 25px;
+        font-weight: 300;
+        padding: 10px;
+        text-align: center;
+    }
+    .cabecalho-menu{
+        background-color:rgba(184, 144, 11, 0.884);
+    }
+    .cabecalho-menu-item{
+        display: block;
+        font-size: 20px;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        border-top: 1px solid;
+    
+    }
+    h1 {
+        text-align: center;
+        font: size 40px; ;
+    }
+    {.cabecalho-menu-imagem
+        width: 50px;
+        image:
+    }
+    #burguer {
+        background-color: rgb(232, 170, 54);
+        display: block;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 10px;
+        }
+        #menu {
+        display: none;
+        }
+    
